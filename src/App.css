@@ -1,0 +1,413 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  background-color: #ffecd1;
+}
+
+#body {
+  background-color: #ffecd1;
+}
+
+.newBlog {
+  background-color: #ffecd1;
+  width: 100%;
+  margin: auto;
+  padding: 0.2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newBlogTitle {
+  margin: auto;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  font-family: Garamond, serif;
+  font-size: 50px;
+  color: #050505;
+  flex-direction: column;
+  align-items: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header-OurAdventures {
+  margin: auto;
+  width: 100%;
+  background-color: #ffecd1;
+  padding: 0.2px;
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-size: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: #7b3e19;
+}
+a {
+  text-decoration: none;
+  color: #7b3e19;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #7b3e19;
+}
+
+.App-link {
+  color: #8693ab;
+}
+
+/* .btn-group {
+  width: 100%;
+  border-style: solid;
+  border-color: rgba(14, 8, 8, 0.46);
+  border-image: initial;
+  display: flex;
+  z-index: 10;
+  position: relative;
+  font-size: 16px;
+  white-space: nowrap;
+  border-width: 1px 0px;
+  flex-direction: column;
+  background-color: #ff7e67;
+  color: #ff7e67(255, 251, 251);
+  cursor: pointer;
+  font-size: min(1.2vw, 0.95rem);
+  font-style: italic;
+  font-family: Garamond, serif;
+  padding: clamp(0.2em, 0.5vw, 0.5em) clamp(0.2em, 0.5vw, 0.64em);
+  border-radius: 8px;
+  margin: auto;
+  float: left;
+} */
+
+.table {
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
+  background-color: #ffecd1;
+}
+
+.trips button {
+  position: relative;
+  background-color: #ffecd1(184 49% 5%); /*  background */
+  color: #ff7d00;
+  top: 50%;
+  border: none; /*  border */
+  color: rgb(3, 3, 3); /*  text */
+  border-radius: 10px;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+.active {
+  color: red;
+}
+
+/* div.scrollmenu { */
+/* background-color: rgb(255, 255, 255);
+  overflow: auto; */
+/* white-space: nowrap; */
+/* margin-left: auto;
+  margin-right: auto;
+} */
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(236, 236, 236);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.button {
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.formName {
+  padding: 10px;
+  border-radius: 10px;
+}
+.formLocation {
+  padding: 10px;
+  border-radius: 10px;
+}
+.formImage {
+  padding: 10px;
+  border-radius: 10px;
+}
+.formDescription {
+  padding: 10px;
+  border-radius: 10px;
+}
+.formFieldSet {
+  margin: 2em;
+  padding: 1em 1em;
+  border: solid 1px #ccc;
+  border-radius: 6px;
+  min-width: 500px;
+  display: block;
+}
+.submitButtonDisplay {
+  position: relative;
+  background-color: #ff7e67(184 49% 5%); /*  background */
+  top: 50%;
+  border: none; /*  border */
+  color: rgb(3, 3, 3); /*  text */
+  border-radius: 10px;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+}
+.tripCardDisplay {
+  background-color: #ffecd1;
+}
+
+/* css for home component */
+
+.trip-window {
+  display: flex;
+  background-color: #ffecd1;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-family: "PT Serif", serif;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#about {
+  padding: 0px 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+#submit-button {
+  width: 180px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  border: none; /*  border */
+  color: rgb(3, 3, 3); /*  text */
+  border-radius: 10px;
+  cursor: pointer; /* Pointer/hand icon */
+  font-family: "PT Serif", serif;
+  font-size: 22px;
+}
+
+/* / css for home component */
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.test {
+  float: right;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+ul#horizontal-list li {
+  display: inline;
+}
+
+/* TripCard CSS */
+.h1Card {
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+
+.cardIMG {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tripP {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+.container {
+  background-color: #ffecd1;
+}
+
+/* TripCard CSS */
+
+/* sumbit form */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffecd1;
+  justify-content: center;
+}
+
+.form-group {
+  /* height:  20vh; */
+  width: 100%;
+  /* background-color: rgba(255, 255, 255, 0.452); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group-description {
+  /* height:  20vh; */
+  width: 100%;
+  /* background-color: rgba(255, 255, 255, 0.452); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.containerB {
+  width: 90%;
+  max-width: 1000px;
+  /* max-height: 800px; */
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #21140c2e;
+  background-color: rgba(23, 39, 31, 0.15);
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+.form-group-description input,
+.form-group-description textarea {
+  width: 50%;
+  height: 120px;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 10px;
+  align-items: center;
+}
+
+button[type="submit"] {
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "PT Serif", serif;
+  color: rbg(27, 166, 247);
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(66, 67, 155);
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#status.sucess {
+  background-color: skyblue;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.gb {
+  font-size: 90px;
+  text-align: center;
+}
+
+#d {
+  width: 1000px;
+  height: 800px;
+  margin-left: 450px;
+}

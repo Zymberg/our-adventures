@@ -1,0 +1,36 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "name": "Eric Van",
+      "image": "https://i.imgur.com/nYo35GG.jpg",
+      "location": "Enchanted Rock",
+      "continent": "TEXAS",
+      "description": "Enchanted rock is a Big rock that you hike up that takes 30mins, I don't go on vacation much"
+    },
+    {
+      "id": 2,
+      "name": "Paola",
+      "image": "https://i.imgur.com/kh35ezi.jpg",
+      "location": "Rojas De Cuauhtémoc, Oaxaca",
+      "continent": "Mexico",
+      "description": "One of the last places I last visited was my mother's hometown of Rojas de Cuauhtémoc. Here My grandma was giving me a tour of where her hens tend to lay their eggs. The trick is to look in the baskets."
+    },
+    {
+      "id": 3,
+      "name": "Granit",
+      "image": "https://i.imgur.com/W8ooIr2.jpg",
+      "location": "Puerto Rico",
+      "continent": "continentTBD",
+      "description": "I visited PR for the first time two years ago. Needless to say it was a amazing! "
+    },
+    {
+      "id": 4,
+      "name": "Charlie",
+      "image": "https://i.imgur.com/yTSwg5B.jpg",
+      "location": "Kerhonkson, NY",
+      "continent": "North America",
+      "description": "When I visited Wayward Ranch Animal Sanctuary, I met this pig!"
+    }
+  ]
+}
