@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/our-adventures/static/css/main.1b6049af.css",
+    "main.js": "/our-adventures/static/js/main.c0325d48.js",
+    "static/js/787.28cb0dcd.chunk.js": "/our-adventures/static/js/787.28cb0dcd.chunk.js",
+    "static/media/3.jpg": "/our-adventures/static/media/3.fe45d7d86973b34bc9bc.jpg",
+    "static/media/air.jpg": "/our-adventures/static/media/air.e25c76ba984350161718.jpg",
+    "static/media/2.jpg": "/our-adventures/static/media/2.d355f9d3d12817f62176.jpg",
+    "index.html": "/our-adventures/index.html",
+    "main.1b6049af.css.map": "/our-adventures/static/css/main.1b6049af.css.map",
+    "main.c0325d48.js.map": "/our-adventures/static/js/main.c0325d48.js.map",
+    "787.28cb0dcd.chunk.js.map": "/our-adventures/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b6049af.css",
+    "static/js/main.c0325d48.js"
+  ]
+}
