@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { AiTwotoneHome } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 function NewForm({ addAdventure }) {
 
@@ -21,6 +23,11 @@ function NewForm({ addAdventure }) {
 
     return (
         <section>
+            <div className="icon-home">
+                <Link to="/">
+                    <AiTwotoneHome />
+                </Link>
+                </div>
         <div className="containerB">
             <h2 className="newBlogTitle">Add your adventure!</h2>
             <form id="formContainer" onSubmit={handleSumbit}>

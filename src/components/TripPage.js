@@ -18,9 +18,6 @@ function TripPage({ addAdventure, displayedTrip }) {
             <Route exact path="/">
                 <Home id="trip-container"/>
             </Route>
-            <Route exact path="/kiwis">
-                <EasterEgg/>
-            </Route>
         </Switch>
     )
 }

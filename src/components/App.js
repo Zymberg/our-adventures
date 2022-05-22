@@ -3,16 +3,10 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import TripPage from "./TripPage";
 import '../App.css';
+import Footer from "./Footer"
 
 function App() {
 
-  // return (
-  //   <>
-  //     <Header />
-  //     <NavBar />
-  //     <TripCard />
-  //     <NewForm />
-  //   </>
     
   const [tripsArray, setTripsArray] = useState([]);
   const [displayedTrip, setDisplayedTrip] = useState({});
@@ -45,21 +39,20 @@ function App() {
  
   }
 
-  // Form Submit
-
-
 
   return (
     <div>
-    <Header />
-    <NavBar 
-      tripsArray={tripsArray}
-      selectTrip={selectTrip} 
-    />
+ 
     <TripPage 
       displayedTrip={displayedTrip}
       addAdventure={addAdventure}
     />
+      <hr></hr>
+       <NavBar 
+      tripsArray={tripsArray}
+      selectTrip={selectTrip} 
+    />
+    <Footer />
     </div>
 
   );

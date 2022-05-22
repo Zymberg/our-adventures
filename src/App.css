@@ -2,12 +2,12 @@
   text-align: center;
 }
 
-#root {
-  background-color: #ffecd1;
-}
+/* #root {
+  background-color: blue;
+} */
 
 #body {
-  background-color: #ffecd1;
+  background-color: white;
 }
 
 .newBlog {
@@ -63,64 +63,34 @@
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  color: #7b3e19;
+  color: black;
 }
+
 a {
   text-decoration: none;
-  color: #7b3e19;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
-  color: #7b3e19;
+  color: black;
 }
 
 .App-link {
   color: #8693ab;
 }
 
-/* .btn-group {
-  width: 100%;
-  border-style: solid;
-  border-color: rgba(14, 8, 8, 0.46);
-  border-image: initial;
-  display: flex;
-  z-index: 10;
-  position: relative;
-  font-size: 16px;
-  white-space: nowrap;
-  border-width: 1px 0px;
-  flex-direction: column;
-  background-color: #ff7e67;
-  color: #ff7e67(255, 251, 251);
-  cursor: pointer;
-  font-size: min(1.2vw, 0.95rem);
-  font-style: italic;
-  font-family: Garamond, serif;
-  padding: clamp(0.2em, 0.5vw, 0.5em) clamp(0.2em, 0.5vw, 0.64em);
-  border-radius: 8px;
-  margin: auto;
-  float: left;
-} */
 
 .table {
   display: table; /* Allow the centering to work */
   margin: 0 auto;
-  background-color: #ffecd1;
+  /* background-color: #ffecd1; */
+  height: 30px;
+  width: 100%;
 }
 
-.trips button {
-  position: relative;
-  background-color: #ffecd1(184 49% 5%); /*  background */
-  color: #ff7d00;
-  top: 50%;
-  border: none; /*  border */
-  color: rgb(3, 3, 3); /*  text */
-  border-radius: 10px;
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-}
+
+
 .active {
   color: red;
 }
@@ -185,7 +155,7 @@ div.scrollmenu a {
 .submitButtonDisplay {
   position: relative;
   background-color: #ff7e67(184 49% 5%); /*  background */
-  top: 50%;
+  top: 100px;
   border: none; /*  border */
   color: rgb(3, 3, 3); /*  text */
   border-radius: 10px;
@@ -193,18 +163,21 @@ div.scrollmenu a {
   cursor: pointer; /* Pointer/hand icon */
   float: right; /* Float the buttons side by side */
 }
+
 .tripCardDisplay {
   background-color: #ffecd1;
+  height: 1000px;
 }
 
 /* css for home component */
 
 .trip-window {
   display: flex;
-  background-color: #ffecd1;
+  background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/131891047_961990820998092_6828158056182204111_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=e3f864&_nc_ohc=E96cZIs7OYkAX9etYEx&_nc_ht=scontent-iad3-1.xx&oh=00_AT_KpwGyl6oVy8_DQrlHhUCyhhuzOQ3LbY3HyNILx4_DWQ&oe=62AB4B62');
   justify-content: space-evenly;
   flex-direction: column;
   font-family: "PT Serif", serif;
+  height: 700px;
 }
 
 #welcome {
@@ -221,21 +194,28 @@ div.scrollmenu a {
   text-align: center;
   padding-bottom: 20px;
   font-size: 22px;
+  background-color: #fcfafa;
+  width: 1000px;
+  position: relative;
+  left: 590px;
+  border-radius: 10px;
+  height: 35px;
 }
 
 #submit-button {
-  width: 180px;
+  width: 280px;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 50%;
+  top: 10px;
   border: none; /*  border */
   color: rgb(3, 3, 3); /*  text */
   border-radius: 10px;
   cursor: pointer; /* Pointer/hand icon */
   font-family: "PT Serif", serif;
   font-size: 22px;
+  font-weight: bold;
 }
 
 /* / css for home component */
@@ -255,6 +235,7 @@ ul#horizontal-list {
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 ul#horizontal-list li {
   display: inline;
@@ -280,6 +261,7 @@ ul#horizontal-list li {
   font-family: "PT Serif", serif;
   font-weight: 300;
   font-size: 35px;
+
 }
 .container {
   background-color: #ffecd1;
@@ -333,6 +315,8 @@ section {
   box-shadow: 0px 0px 20px #21140c2e;
   background-color: rgba(23, 39, 31, 0.15);
   margin-bottom: 20px;
+  position: relative;
+  top: 200px;
 }
 
 .form-group input,
@@ -410,4 +394,37 @@ button[type="submit"]:hover {
   width: 1000px;
   height: 800px;
   margin-left: 450px;
+}
+
+.icon-home {
+  font-size: 30px;
+  position: relative;
+  left: 40px;
+  top: 50px;
+  color: #100f6e;
+}
+
+
+.trips button {
+  position: relative;
+  background-color: #0b3a79;
+  color: #ff7d00;
+  top: 50%;
+  border: none; 
+  color: rgb(3, 3, 3); 
+  border-radius: 10px;
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+  color: white;
+  height: 35px;
+  width: 160px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.description {
+  color: black;
+  position: relative;
+  left: 700px;
 }

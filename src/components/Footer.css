@@ -1,0 +1,120 @@
+.villas {
+    display: flex;
+    background-color: white;
+    padding-top: 1px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    height: 600px;
+    width: 100%;
+
+}
+
+.container-villa {
+    width: 0px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    position: relative;
+    left: 1660px;
+    bottom: 140px;
+}
+
+
+.villa {
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    right: 1300px;
+    background-color: white;
+    height: 0px;
+
+}
+
+.villa img {
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.content-all {
+    align-content: center;
+    width: 1100px;
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 140px;
+}
+
+.title {
+    background-color: hsl(30, 10%, 99%);
+    width: 405px;
+    height: 50px;
+    position: relative;
+    left: 44px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+.content-text {
+    background-color: hsl(0, 14%, 95%);
+    width: 470px;
+    margin-left: 24px;
+    height: 180px;
+    position: relative;
+    top: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 90%;
+    margin-top: 1rem;
+    font-family: Whitney-Book;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    cursor: pointer;
+
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: Whitney-Bold;
+    font-size: .9875rem;
+    line-height: 1.5rem;
+    color: #0b1f66;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 13px;
+    padding-left: 60px;
+}
+
+.social {
+    text-align: center;
+    position: relative; 
+    top: 750px;
+    right: 870px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.horizontal-list {
+    display: flex;
+}
+
+.horizontal-list li {
+    margin-right: 50px;
+    font-size: 30px;
+    color: #100f6e;
+}
